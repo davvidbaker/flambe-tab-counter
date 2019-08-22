@@ -1,0 +1,17 @@
+{
+  "name": "Tab Counter",
+  "version": "1.0",
+  "description": "Count your tabs.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "permissions": [
+    "tabs",
+    "signedInDevices",
+    "webRequest",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "manifest_version": 2
+}
